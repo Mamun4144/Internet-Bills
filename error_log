@@ -1,0 +1,6 @@
+[10-May-2026 09:25:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/arwizgl1/bill.rotexit.com/db.php:10
+Stack trace:
+#0 /home/arwizgl1/bill.rotexit.com/db.php(10): mysqli->__construct()
+#1 /home/arwizgl1/bill.rotexit.com/index.php(5): include('/home/arwizgl1/...')
+#2 {main}
+  thrown in /home/arwizgl1/bill.rotexit.com/db.php on line 10
